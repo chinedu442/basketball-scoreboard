@@ -1,0 +1,64 @@
+body{
+ margin: 0;
+ background-color: #0C4A6E;
+ font-family: arial; 
+}
+
+section div{
+ text-align: center; 
+ font-size: 2em;
+}
+
+section{
+ /*width: 50%;
+ margin: auto;*/
+ padding: 2em;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+section, #new-game-div{
+ display: flex;
+}
+
+#home-score, #guest-score{
+ color: white;
+ font-size: 1.5em;
+}
+
+button{
+ cursor: pointer;
+}
+
+#home button, #guest button{
+ background: transparent;
+ border: 1px solid white;
+ border-radius: 6px;
+ /*padding: 1em;*/
+ font-size: 1em;
+}
+
+#home button:hover{
+ background-color: orange;
+ color: white;
+}
+
+#guest button:hover{
+ background-color: #4CAF50;
+ color: white;
+}
+
+#new-game-div{
+ justify-content: center;
+ align-items: center;
+}
+
+#new-game{
+ border: none;
+ border-radius: 6px;
+ padding: 1em 2em;
+ font-size: 1em;
+ margin-top: 2em;
+}
+
